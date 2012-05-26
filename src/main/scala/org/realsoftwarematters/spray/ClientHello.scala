@@ -31,7 +31,7 @@ object ClientHello extends App {
 
 object ConnActor {
   val ServerAddress = new InetSocketAddress("127.0.0.1", 8080)
-  val MaxConns = 20000
+  val MaxConns = 50000
   val Delay = 4900.millis // 5 seconds
   val Ping = new {}
   val HoldFor = 10 // requests
